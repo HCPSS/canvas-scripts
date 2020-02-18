@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name Section SIS ID edit box
+// @namespace Audra Agnelly
+// @version 1
+// @description Increases width of section SIS ID edit to fit the entire length of SIS ID; also changes text color to pink just because
+// @match https://hcpss.instructure.com/courses/*/sections/*
+// @grant none
+// ==/UserScript==
+
+
+document.getElementById('course_section_sis_source_id').style.width = "350px";
+document.getElementById('course_section_sis_source_id').style.color = "#ff0066";
